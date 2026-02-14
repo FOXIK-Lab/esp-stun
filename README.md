@@ -1,2 +1,2 @@
 # esp-stun
-ESP32 Firmware for Pentesting.
+Some code stealed and modified from github.com/Teapot174/ESP-HACK/
