@@ -1,5 +1,5 @@
 # ESP-STUN
-Some code stealed and modified from https://github.com/Teapot174/ESP-HACK/
+Fork from https://github.com/Teapot174/ESP-HACK/ fix your firmware plese)
 ## 🚀 About ESP-STUN FW
 
 ESP-STUN is a powerful universal firmware for the ESP32, built for RF research and pentesting of radio frequencies, Bluetooth, infrared signals and GPIO integrations.  
@@ -17,6 +17,70 @@ By using the firmware, you must comply with the laws of your region. The firmwar
 ---
 
 ## ⚡ Features
+### WiFi
+
+- Connect*(in development)*
+- Deauther *(nope, lol)*  
+- Beacon Spam  
+- EvilPortal  
+- Wardriving
+- Packets
+
+### Bluetooth
+
+- BLE-Spam:
+IOS, Android, Windows
+- BadBLE
+
+### SubGHz
+
+- Read  
+- Send
+- RAW (Record/Send)
+- Analyzer
+- Bruteforce:
+Came, Nice, Ansonic, Holtek, Chamberlain
+- Jammer (ILLEGAL)
+
+### Infrared
+
+- Send  
+- Read  
+- TV, PJ, AC OFF
+
+### GPIO
+
+**iButton**
+- Read
+- Write
+- Config
+
+**NRF24**
+- Jammer (ILLEGAL)
+- Spectrum
+- Config
+
+**Serial *(in development)***
+
+### Settings
+- Connect to PC*(in development)*
+- Display Color
+- Standby time
+- About
+
+---
+
+### 📡 Supported SubGHz modulations
+(315MHz/433.92MHz/868Mhz/915Mhz)
+- Princeton  
+- RcSwitch  
+- Came
+- Nice 
+- Holtec
+- Ansonic
+- Chamberlain
+- StarLine  
+- KeeLoq
 ## 🛠️ Building
 
 ### 🔧 PCB
@@ -40,14 +104,14 @@ Later...
 
 ### 🔌 Connection scheme
 
-| Module | Pin  | Pin  | Pin  | Pin  | Pin  | Pin  | Pin  |
+| Module | Pin | Pin | Pin | Pin | Pin | Pin | Pin |
 |--------|-------|-------|-------|-------|-------|-------|-------|
 | **📺 Display** | VCC → 3V3 | GND → GND | SCL → G22 | SDA → G21 | - | - | - |
 | **🔘 Buttons** | UP → G27 | DOWN → G26 | OK → G33 | BACK → G32 | - | - | - |
-| **📡 CC1101** | 1 → GND | 2 → 3V3 | 3 → G4 | 4 → G15 | 5 → G18 | 6 → G23 | 7 → G19 |
-| **💡 IR** | IR-T → G12 | IR-R → G14 | - | - | - | - | - |
-| **🔌 GPIO** | A → G2 | B → G25 | C → G17 | D → G16 | E → G13 | F → G12 | - |
-| **💾 SD Card** | 3v3 → 3v3 | CS → G5 | MOSI → G23 | CLK → G18 | MISO → G19 | GND → GND | - |
+| **📡 CC1101** | 1 → GND | 2 → 3V3 | 3 → G4 | 4 → G5 | 5 → G18 | 6 → G23 | 7 → G19 |
+| **💡 IR** | IR-TX → G16 | IR-RX → G35 | - | - | - | - | - |
+| **🔌 GPIO** | A → G16 | B → G2 | C → G18 | D → G23 | E → G19 | F → G25 | - |
+| **💾 SD Card** | 3v3 → 3v3 | CS → G15 | MOSI → G13 | CLK → G14 | MISO → G17 | GND → GND | - |
 
 ---
 
