@@ -63,13 +63,6 @@ During operation ESP-STUN may show the following errors:
 
 ---
 
-| simbols in commits | means |
-|------------|-----------|
-| ** | FULL STEALED | 
-| * | STEALED AND EDITED | 
-
----
-
 ## 📸 Final result
 
 ![ESP-HACK_Device](others/Pictures/Device.jpg)
