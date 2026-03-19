@@ -1,5 +1,5 @@
 # ESP-STUN
-Fork from https://github.com/Teapot174/ESP-HACK/ fix your firmware plese)
+Fork from https://github.com/Teapot174/ESP-HACK/ fix your firmware please)
 ## 🚀 About ESP-STUN FW
 
 ESP-STUN is a powerful universal firmware for the ESP32, built for RF research and pentesting of radio frequencies, Bluetooth, infrared signals and GPIO integrations.  
