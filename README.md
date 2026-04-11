@@ -6,7 +6,7 @@ ESP-STUN is a powerful universal firmware for the ESP32, built for RF research a
 The project targets enthusiasts and pentesters who want to explore protocols and devices in Sub-GHz ranges and other wireless technologies.
 
 > *The firmware is stable within its declared functionality, but some features are marked as "in development". Use the device according to the laws in your region.*
-
+based on v0.7
 ---
 
 ### ⚠️ Disclaimer
@@ -19,7 +19,7 @@ By using the firmware, you must comply with the laws of your region. The firmwar
 ## ⚡ Features
 ### WiFi
 
-- Connect*(in development)*
+- Connect
 - Deauther *(nope, lol)*  
 - Beacon Spam  
 - EvilPortal  
@@ -63,7 +63,7 @@ Came, Nice, Ansonic, Holtek, Chamberlain
 **Serial *(in development)***
 
 ### Settings
-- Connect to PC*(in development)*
+- Connect to PC*(alpha)*
 - Display Color
 - Standby time
 - About
@@ -125,4 +125,3 @@ During operation ESP-STUN may show the following errors:
 | **0x001**  | CC1101 initialization failed | 🛠️ Check wiring and module functionality (power, SPI, contacts). |
 | **0x002**  | NRF24 initialization failed | 🛠️ Verify chosen pins/connections and reboot the device. |
 ---
-
